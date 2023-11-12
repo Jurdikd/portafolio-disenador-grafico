@@ -12,7 +12,10 @@ body {
         background-position: center; /* Centra la imagen de fondo solo en tamaños de pantalla menores a 800px */
     }
 }
-
+/* conetent page*/
+.content-page {
+	min-height: calc(100vh - 3.6em - 3.6em) !important;
+}
 #navbar-menu {
     margin-top: 10px;
     font-size: 1.6em;
@@ -134,3 +137,99 @@ body {
   @media (max-width: 575.98px) { /* Tamaño máximo para dispositivos muy pequeños */
       /* Reglas CSS para este tamaño */
     }
+     /*=========================================================*/
+ /* Footer*/
+
+ #footer {
+	/*position: fixed;*/
+	left: 0;
+	width: 100%;
+	bottom: 0 !important;
+	background: rgba(124, 124, 124, 0.20);
+	font-family: "Open Sans", sans-serif;
+}
+/* Colores de iconos*/
+.__footer-titles{
+    font-size: 2.4em;
+    color: #fff;
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+}
+.footer-ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.footer-ul li {
+	line-height: 29px;
+	font-size: 12px;
+}
+.footer-ul li a {
+	color: #a0a3a4;
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+}
+.footer-ul i {
+	margin-right: 10px;
+}
+.footer-ul li a:hover {
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+	color: #ff670f;
+}
+
+.fb-page a:hover {
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+	color: whitesmoke !important;
+}
+
+.icon-ul {
+	list-style-type: none !important;
+	margin: 0px;
+	padding: 0px;
+}
+.icon-ul li {
+	line-height: 75px;
+	width: 100%;
+	float: left;
+}
+.icon {
+	float: left;
+	margin-right: 5px;
+}
+
+.copyright {
+	min-height: 40px;
+}
+.copyright p {
+	text-align: left;
+	color: #fff;
+	padding: 10px 0;
+	margin-bottom: 0px;
+}
+.heading7 {
+	font-size: 21px;
+	font-weight: 700;
+	color: #d9d6d6;
+	margin-bottom: 22px;
+}
+.post p span {
+	display: block;
+	color: #fbfbfb;
+}
+.bottom_ul {
+	list-style-type: none;
+	float: right;
+	margin-top: 8em !important;
+}
+.bottom_ul li {
+	float: left;
+	line-height: 40px;
+}
+.bottom_ul li:after {
+	content: "/";
+	color: #fff;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.bottom_ul li a {
+	color: #fff;
+	font-size: 12px;
+}
