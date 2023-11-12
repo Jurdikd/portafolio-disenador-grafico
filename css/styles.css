@@ -115,7 +115,25 @@ body {
     }
 }
 /* MEDIDAS RESPONSIVE */
+/*
+@media (max-width: 800px){
+    .__section-destacados {
+        padding-left: 0em;
+    }
+      .__card-destacado{
+        width:10.9em;
+        height: 10.2em;
+    }
+    .__card-destacado_medio{
+        width:10.9em;
+        height: 12.5em;
+    }
+}*/
+/* big falla*/
 
+@media (min-width: 1335px) { /* Tamaño de dispositivos extra grandes (escritorios grandes) */
+    /* Reglas CSS para este tamaño */
+}
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { /* Tamaño de dispositivos extra grandes (escritorios grandes) */
     /* Reglas CSS para este tamaño */
@@ -123,21 +141,69 @@ body {
 /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1199.98px) { /* Tamaño de dispositivos grandes (escritorios) */
     /* Reglas CSS para este tamaño */
+    .__section-destacados {
+        padding-left: 0em;
+    }
+      .__card-destacado{
+            width: 23em;
+    height: 26em;
+    }
+    .__card-destacado_medio{
+        margin-top: -25px;
+        width: 23.2em;
+        height: 30.3em;
+    }
   }
 
 /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991.98px) { /* Tamaño de dispositivos medianos (tablets) */
+  @media (min-width: 769px) and (max-width: 991.98px) { /* Tamaño de dispositivos medianos (tablets) */
     /* Reglas CSS para este tamaño */
+    .__section-destacados {
+        padding-left: 0em;
+    }
+    .__card-destacado{
+        width: 20em;
+        height: 20em;
+    }
+    .__card-destacado_medio{
+        margin-top: -25px;
+        width: 20em;
+        height: 25em;
+    }
+    
 }
   /* Extra small devices (portrait phones, less than 576px) */
     /* Small devices (landscape phones, 576px and up) */
-      @media (min-width: 576px) and (max-width: 767.98px) { /* Tamaño de dispositivos pequeños */
+      @media (min-width: 576px) and (max-width: 768px) { /* Tamaño de dispositivos pequeños */
         /* Reglas CSS para este tamaño */
+        .__section-destacados {
+            padding-left: 0em;
+        }
+          .__card-destacado{
+            width:16em;
+            height: 16em;
+        }
+        .__card-destacado_medio{
+            width:16em;
+            height: 21em;
+        }
       }
 
   @media (max-width: 575.98px) { /* Tamaño máximo para dispositivos muy pequeños */
       /* Reglas CSS para este tamaño */
+      .__section-destacados {
+        padding-left: 0em;
     }
+      .__card-destacado{
+        width:10.9em;
+        height: 10.2em;
+    }
+    .__card-destacado_medio{
+        width:10.9em;
+        height: 12.5em;
+    }
+   
+  }
      /*=========================================================*/
  /* Footer*/
 
