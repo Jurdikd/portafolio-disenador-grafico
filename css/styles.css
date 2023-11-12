@@ -1,7 +1,7 @@
 body {
     background: url("../img/background/principal/backbround-principal.png"), lightgray -0.07px -364.794px / 100.01% 131.79% no-repeat;
     background-color: #08080C;
-    height: 100vh;
+    
     margin: 0;
     background-size: cover; /* Hace que la imagen de fondo cubra todo el fondo */
     font-family: 'Inter', sans-serif; /* Aplica la fuente Inter al cuerpo del documento */
@@ -10,6 +10,7 @@ body {
 @media (max-width: 800px) {
     body {
         background-position: center; /* Centra la imagen de fondo solo en tamaños de pantalla menores a 800px */
+        
     }
 }
 /* conetent page*/
@@ -145,6 +146,7 @@ body {
 	left: 0;
 	width: 100%;
 	bottom: 0 !important;
+    padding-top: 1.6em;
 	background: rgba(124, 124, 124, 0.20);
 	font-family: "Open Sans", sans-serif;
 }
@@ -152,23 +154,23 @@ body {
 .__footer-titles{
     font-size: 2.4em;
     color: #fff;
-    margin-top: 1.6em;
-    margin-bottom: 1.6em;
 }
 .footer-ul {
 	list-style-type: none;
 	padding-left: 0px;
+    text-decoration: none !important;
+    
 }
 .footer-ul li {
 	line-height: 29px;
-	font-size: 12px;
+	font-size: 1.6em;
 }
 .footer-ul li a {
 	color: #a0a3a4;
 	transition: color 0.2s linear 0s, background 0.2s linear 0s;
 }
 .footer-ul i {
-	margin-right: 10px;
+	margin-right: 1em;
 }
 .footer-ul li a:hover {
 	transition: color 0.2s linear 0s, background 0.2s linear 0s;
@@ -201,15 +203,9 @@ body {
 .copyright p {
 	text-align: left;
 	color: #fff;
-	padding: 10px 0;
 	margin-bottom: 0px;
 }
-.heading7 {
-	font-size: 21px;
-	font-weight: 700;
-	color: #d9d6d6;
-	margin-bottom: 22px;
-}
+
 .post p span {
 	display: block;
 	color: #fbfbfb;
@@ -231,5 +227,19 @@ body {
 }
 .bottom_ul li a {
 	color: #fff;
-	font-size: 12px;
+	font-size: 1.6em;
+}
+.rrss{
+    display: flex;
+}
+.btn-rrss{
+    font-size: 3.2em !important;
+    margin: 0.5em 0.2em 0.5em 0.5em;
+    text-decoration: none;
+    color: #fbfbfb;
+
+}
+.copyright-end{
+    padding: 1.6em;
+    font-size: 2.4em;
 }
