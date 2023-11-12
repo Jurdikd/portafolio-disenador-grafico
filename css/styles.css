@@ -45,7 +45,7 @@ body {
 .title_section{
     font-size: 2.4em;
     color: #fff;
-    margin-left: 44%;
+    margin-left: 44vw;
     margin-top: 1.6em;
     margin-bottom: 1.6em;
 }
@@ -116,20 +116,8 @@ body {
 }
 /* MEDIDAS RESPONSIVE */
 /*
-@media (max-width: 800px){
-    .__section-destacados {
-        padding-left: 0em;
-    }
-      .__card-destacado{
-        width:10.9em;
-        height: 10.2em;
-    }
-    .__card-destacado_medio{
-        width:10.9em;
-        height: 12.5em;
-    }
-}*/
-/* big falla*/
+
+/* big full*/
 
 @media (min-width: 1335px) { /* Tamaño de dispositivos extra grandes (escritorios grandes) */
     /* Reglas CSS para este tamaño */
@@ -141,6 +129,9 @@ body {
 /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1199.98px) { /* Tamaño de dispositivos grandes (escritorios) */
     /* Reglas CSS para este tamaño */
+    .title_section{
+        margin-left: 25vw;
+    }
     .__section-destacados {
         padding-left: 0em;
     }
@@ -158,6 +149,7 @@ body {
 /* Medium devices (tablets, 768px and up) */
   @media (min-width: 769px) and (max-width: 991.98px) { /* Tamaño de dispositivos medianos (tablets) */
     /* Reglas CSS para este tamaño */
+   
     .__section-destacados {
         padding-left: 0em;
     }
@@ -165,6 +157,7 @@ body {
         width: 20em;
         height: 20em;
     }
+    
     .__card-destacado_medio{
         margin-top: -25px;
         width: 20em;
@@ -183,6 +176,9 @@ body {
             width:16em;
             height: 16em;
         }
+        .__card-destacado-right{
+            margin-left: 25vw;
+        }
         .__card-destacado_medio{
             width:16em;
             height: 21em;
@@ -191,6 +187,9 @@ body {
 
   @media (max-width: 575.98px) { /* Tamaño máximo para dispositivos muy pequeños */
       /* Reglas CSS para este tamaño */
+      .title_section{
+    margin-left:25vw;
+    }
       .__section-destacados {
         padding-left: 0em;
     }
@@ -198,9 +197,14 @@ body {
         width:10.9em;
         height: 10.2em;
     }
+    .__card-destacado-right{
+        margin-left: 26vw;
+    }
     .__card-destacado_medio{
+        margin-top: 0px;
+        margin-left: 6em;
         width:10.9em;
-        height: 12.5em;
+        height: 10.2em;
     }
    
   }
