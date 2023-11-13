@@ -95,6 +95,7 @@ body {
         margin-top:-7em;
         width: 12.5em;
         height:auto;
+        
     }
     .__card_center-img{
         padding-top: 0rem!important;
@@ -102,7 +103,12 @@ body {
     
     }
 }
-
+@media (max-width: 575px) {
+    .__card-img_float{
+        padding-bottom: 5%;
+        
+    }
+}
 /* animaciones*/
 /* */
 @keyframes moverLATA {
