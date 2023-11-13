@@ -52,38 +52,57 @@ body {
 .__section-destacados{
   background: rgba(124, 124, 124, 0.20);
   padding-top: 8em ;
+  padding-bottom: 6em ;
   padding-left: 12em;
   padding-right: 12em;
 }
-.__card-destacado{
-    width:35em;
-    height: 33.1em;
+.__card-center{
+    margin-top: -3.5em;
 }
-.__card-destacado_medio{
-    margin-top: -39px;
-    width:35.2em;
-    height: 40.3em;
+.__card_center-img{
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+
 }
-.img-card-float{
-    position: relative;
-    width:100%;
-    height: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    margin-right: 1em;
-    margin-top: -2em;
-}
-.img-card-float>img{
-    position: absolute;
-    margin-top: -60px;
-    margin-left: 18%;
+.__card-img_float{
+    margin-top:-10em;
 }
 .img-lata{
+    
     animation: moverLATA 3s infinite; /* Ajusta la duración de la animación según tus necesidades */
 }
 .img-botella{
-    animation: rotarBOTELLA 7s infinite; /* Ajusta la duración de la animación según tus necesidades */
+    
+    animation: moverLATA 4s infinite; /* Ajusta la duración de la animación según tus necesidades */
 }
+@media (max-width: 975px) {
+    .__section-destacados{
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+      }
+}
+
+@media (max-width: 767px) {
+    .__section-destacados{
+        padding-left: 0em;
+        padding-right: 0em;
+      }
+      
+    .__card-center{
+        margin-top: 0em;
+    }
+    .__card-img_float{
+        margin-top:-7em;
+        width: 12.5em;
+        height:auto;
+    }
+    .__card_center-img{
+        padding-top: 0rem!important;
+        padding-bottom: 0rem!important;
+    
+    }
+}
+
 /* animaciones*/
 /* */
 @keyframes moverLATA {
@@ -132,80 +151,36 @@ body {
     .title_section{
         margin-left: 25vw;
     }
-    .__section-destacados {
-        padding-left: 0em;
-    }
-      .__card-destacado{
-            width: 23em;
-    height: 26em;
-    }
-    .__card-destacado_medio{
-        margin-top: -25px;
-        width: 23.2em;
-        height: 30.3em;
-    }
+   
   }
 
 /* Medium devices (tablets, 768px and up) */
   @media (min-width: 769px) and (max-width: 991.98px) { /* Tamaño de dispositivos medianos (tablets) */
     /* Reglas CSS para este tamaño */
    
-    .__section-destacados {
-        padding-left: 0em;
-    }
-    .__card-destacado{
-        width: 20em;
-        height: 20em;
-    }
     
-    .__card-destacado_medio{
-        margin-top: -25px;
-        width: 20em;
-        height: 25em;
-    }
     
 }
   /* Extra small devices (portrait phones, less than 576px) */
     /* Small devices (landscape phones, 576px and up) */
       @media (min-width: 576px) and (max-width: 768px) { /* Tamaño de dispositivos pequeños */
         /* Reglas CSS para este tamaño */
-        .__section-destacados {
-            padding-left: 0em;
-        }
-          .__card-destacado{
-            width:16em;
-            height: 16em;
-        }
-        .__card-destacado-right{
-            margin-left: 25vw;
-        }
-        .__card-destacado_medio{
-            width:16em;
-            height: 21em;
-        }
+       
       }
-
-  @media (max-width: 575.98px) { /* Tamaño máximo para dispositivos muy pequeños */
+      @media (max-width: 376px) { /* Tamaño máximo para dispositivos pequeños */
+        /* Reglas CSS para este tamaño */
+        .title_section{
+      margin-left:25vw;
+      }
+       
+     
+    }
+  @media (max-width: 375.98px) { /* Tamaño máximo para dispositivos muy pequeños */
       /* Reglas CSS para este tamaño */
       .title_section{
     margin-left:25vw;
     }
-      .__section-destacados {
-        padding-left: 0em;
-    }
-      .__card-destacado{
-        width:10.9em;
-        height: 10.2em;
-    }
-    .__card-destacado-right{
-        margin-left: 26vw;
-    }
-    .__card-destacado_medio{
-        margin-top: 0px;
-        margin-left: 6em;
-        width:10.9em;
-        height: 10.2em;
-    }
+   
    
   }
      /*=========================================================*/
