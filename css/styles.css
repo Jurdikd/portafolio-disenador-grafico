@@ -1,5 +1,4 @@
 body {
-    background: url("../img/background/principal/backbround-principal.png"), lightgray -0.07px -364.794px / 100.01% 131.79% no-repeat;
     background-color: #08080C;
     
     margin: 0;
@@ -74,6 +73,11 @@ body {
 .img-botella{
     
     animation: moverLATA 4s infinite; /* Ajusta la duración de la animación según tus necesidades */
+}
+.card_dark{
+    border-radius: 1em;
+    background: #2F2F2F;
+    box-shadow: 0px 8px 9px 0px #1C1C2B;
 }
 @media (max-width: 975px) {
     .__section-destacados{
