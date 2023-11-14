@@ -160,54 +160,17 @@ body {
         transform: translateY(0px);
     }
 }
-/* MEDIDAS RESPONSIVE */
-/*
+.img-biografia{
+    border-radius: 1em 0px 0px 1em;
+    max-width: 100%;
+    object-fit: cover;
 
-/* big full*/
-
-@media (min-width: 1335px) { /* Tamaño de dispositivos extra grandes (escritorios grandes) */
-    /* Reglas CSS para este tamaño */
 }
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { /* Tamaño de dispositivos extra grandes (escritorios grandes) */
-    /* Reglas CSS para este tamaño */
-}
-/* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199.98px) { /* Tamaño de dispositivos grandes (escritorios) */
-    /* Reglas CSS para este tamaño */
-    
-   
-  }
-
-/* Medium devices (tablets, 768px and up) */
-  @media (min-width: 769px) and (max-width: 991.98px) { /* Tamaño de dispositivos medianos (tablets) */
-    /* Reglas CSS para este tamaño */
-   
-    
-    
-}
-  /* Extra small devices (portrait phones, less than 576px) */
-    /* Small devices (landscape phones, 576px and up) */
-      @media (min-width: 576px) and (max-width: 768px) { /* Tamaño de dispositivos pequeños */
-        /* Reglas CSS para este tamaño */
-       
-      }
-      @media (max-width: 376px) { /* Tamaño máximo para dispositivos pequeños */
-        /* Reglas CSS para este tamaño */
-        .title_section{
-      margin-left:25vw;
-      }
-       
-     
+@media (max-width: 767px) {
+    .img-biografia{
+        border-radius: 1em 1em 0px 0em;
     }
-  @media (max-width: 375.98px) { /* Tamaño máximo para dispositivos muy pequeños */
-      /* Reglas CSS para este tamaño */
-      .title_section{
-    margin-left:25vw;
-    }
-   
-   
-  }
+}
      /*=========================================================*/
  /* Footer*/
 
