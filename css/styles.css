@@ -166,11 +166,18 @@ body {
     object-fit: cover;
 
 }
+.text-regular{
+    font-size: 1.2em;
+}
 @media (max-width: 767px) {
     .img-biografia{
         border-radius: 1em 1em 0px 0em;
     }
+    .text-regular{
+        font-size: 1em;
+    }
 }
+
      /*=========================================================*/
  /* Footer*/
 
