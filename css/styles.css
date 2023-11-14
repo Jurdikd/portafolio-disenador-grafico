@@ -5,7 +5,19 @@ body {
     background-size: cover; /* Hace que la imagen de fondo cubra todo el fondo */
     font-family: 'Inter', sans-serif; /* Aplica la fuente Inter al cuerpo del documento */
     font-size: 10px;
+    
 }
+/* Color de seleccion */
+::selection {
+    background: rgb(170, 170, 170);
+    color: rgb(34, 34, 34);
+  }
+  
+  /* Firefox */
+  ::-moz-selection {
+    background: rgb(170, 170, 170);
+    color: rgb(34, 34, 34);
+  }
 @media (max-width: 800px) {
     body {
         background-position: center; /* Centra la imagen de fondo solo en tamaños de pantalla menores a 800px */
@@ -84,6 +96,7 @@ body {
         padding-right: 2em !important;
       }
 }
+
 
 @media (max-width: 767px) {
     .__section-destacados{
