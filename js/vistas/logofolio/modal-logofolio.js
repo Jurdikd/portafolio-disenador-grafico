@@ -9,6 +9,7 @@ logofolioIMG.addEventListener("click", (e) => {
 		const img = e.target;
 		const title = img.getAttribute("data-title"); // obtener el titulo
 		const description = img.getAttribute("data-description"); // obtener la descripcion
+		const alt = img.getAttribute("alt"); // obtener el alt
 
 		// Abrir la modal
 		const modal = document.getElementById("logoModal"); // obtener modal
@@ -22,6 +23,7 @@ logofolioIMG.addEventListener("click", (e) => {
 		imgModal.height = 300;
 
 		imgModal.setAttribute("src", img.getAttribute("src")); // cambiar ruta de imagen logo
+		imgModal.setAttribute("alt", alt); // cambiar alt
 		modal.querySelector("#logoModalLabel").textContent = title; // cambiar titulo
 		modal.querySelector("#logoDescription").textContent = description; // cambiar descripción
 
