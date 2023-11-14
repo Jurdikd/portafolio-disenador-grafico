@@ -7,16 +7,21 @@ logofolioIMG.addEventListener("click", (e) => {
 	if (e.target && e.target.name === "img_logofolio") {
 		console.log(e.target);
 		const img = e.target;
-		const title = img.getAttribute("data-title");
-		const description = img.getAttribute("data-description");
-		console.log(title, description);
-		// Abre la modal
+		const title = img.getAttribute("data-title"); // obtener el titulo
+		const description = img.getAttribute("data-description"); // obtener la descripcion
+
+		// Abrir la modal
 		const modal = document.getElementById("logoModal"); // obtener modal
 		const modalShow = new bootstrap.Modal(modal); // funcion para mostrar modal
 
-		modal
-			.querySelector(".card-img_logofolio")
-			.setAttribute("src", img.getAttribute("src")); // cambiar ruta de imagen logo
+		const imgModal = modal.querySelector(".card-img_logofolio"); // obtener imagen de la modal
+
+		// Aumenta el tamaño de la imagen al 200%
+
+		imgModal.width = 300;
+		imgModal.height = 300;
+
+		imgModal.setAttribute("src", img.getAttribute("src")); // cambiar ruta de imagen logo
 		modal.querySelector("#logoModalLabel").textContent = title; // cambiar titulo
 		modal.querySelector("#logoDescription").textContent = description; // cambiar descripción
 
