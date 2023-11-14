@@ -44,7 +44,6 @@ body {
 .title_section{
     font-size: 2.4em;
     color: #fff;
-    margin-left: 44vw;
     margin-top: 1.6em;
     margin-bottom: 1.6em;
 }
@@ -158,9 +157,7 @@ body {
 /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1199.98px) { /* Tamaño de dispositivos grandes (escritorios) */
     /* Reglas CSS para este tamaño */
-    .title_section{
-        margin-left: 25vw;
-    }
+    
    
   }
 
@@ -203,7 +200,6 @@ body {
 	bottom: 0 !important;
     padding-top: 1.6em;
 	background: rgba(124, 124, 124, 0.20);
-	font-family: "Open Sans", sans-serif;
 }
 /* Colores de iconos*/
 .__footer-titles{
@@ -296,5 +292,5 @@ body {
 }
 .copyright-end{
     padding: 1.6em;
-    font-size: 2.4em;
+    font-size: 1.2em;
 }
