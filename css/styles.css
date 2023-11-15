@@ -82,6 +82,26 @@ body {
     
     animation: moverLATA 3s infinite; /* Ajusta la duración de la animación según tus necesidades */
 }
+.img-etiqueta-lata{
+    top: 53.3% !important;
+    left: 50.3%!important;
+    max-width: 49%;
+    animation: fadeIn 5s ease-in-out infinite;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
 .img-botella{
     
     animation: moverLATA 4s infinite; /* Ajusta la duración de la animación según tus necesidades */
@@ -169,12 +189,18 @@ body {
 .text-regular{
     font-size: 1.2em;
 }
+.text-lg{
+    font-size: 2.4em;
+}
 @media (max-width: 767px) {
     .img-biografia{
         border-radius: 1em 1em 0px 0em;
     }
     .text-regular{
         font-size: 1.2em;
+    }
+    .text-lg{
+        font-size: 1.8em;
     }
 }
 
