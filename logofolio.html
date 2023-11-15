@@ -207,17 +207,26 @@
 
         <!-- Modal -->
         <div class="modal fade" id="logoModal" tabindex="-1" aria-labelledby="logoModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                 <div class="modal-content card_dark">
 
                     <div class="modal-body text-white">
                         <button type="button" class="btn-close d-flex ms-auto bg-white" data-bs-dismiss="modal"
                             aria-label="Close"></button>
-                        <img class="img-fluid card-img_logofolio d-block mx-auto mb-1" src="" alt="">
-                        <h5 class="modal-title text-center" id="logoModalLabel">
-                        </h5>
-                        <p class="mt-2" id="logoDescription">
-                        </p>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img class="img-fluid card-img_logofolio d-block mx-auto" src="" alt="">
+                                </div>
+                                <div class="col-md-7 align-self-center">
+                                    <h5 class="modal-title" id="logoModalLabel">
+                                    </h5>
+                                    <p class="mt-2 text-regular" id="logoDescription">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
