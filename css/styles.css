@@ -224,7 +224,6 @@ body {
     }
 }
 .img-personajes {
-    position: relative;
     width: 90%;
     height: 38.7em;
     object-fit: cover;
@@ -233,29 +232,14 @@ body {
     transition: opacity 0.3s ease; /* Agrega transición suave para cambios de opacidad */
 }
 
-.img-personajes:hover,
-.img-personajes:active {
-    
+.img_personaje:hover> .img-personajes,
+.img_personaje:active> .img-personajes {
+    object-fit:fill;
     width: 100%;
-    height: 38.7em;
+    margin-right: 0.5em;
     opacity: 1;
 }
 
-.img-personajes::after {
-    content: attr(data-text);
-    position: absolute;
-    z-index: 100;
-    bottom: 2em;
-    color: #fbfbfb;
-    opacity: 0; /* Inicialmente oculto */
-    transition: opacity 0.3s ease; /* Agrega transición suave para cambios de opacidad */
-}
-
-.img-personajes:hover::after,
-.img-personajes:active::after {
-    z-index: 100;
-    opacity: 1;
-}
 .personajes-up
 {
     transform:translateY(-16px) ;
@@ -265,7 +249,20 @@ body {
     transform:translateY(16px) ;
 }
 
+.__personaje-text{
+    position: absolute;
+    display: none;
+    bottom: 5%;
+    color: #1C1C2B;
+}
 
+.img_personaje:hover> .__personaje-text,
+.img_personaje:active> .__personaje-text {
+    display: block;
+    
+    
+
+}
 
      /*=========================================================*/
  /* Footer*/
