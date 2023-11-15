@@ -102,6 +102,26 @@ body {
         opacity: 0.5;
     }
 }
+.img-etiqueta-botella-roja{
+    top: 42% !important;
+    left: 25.3%!important;
+    max-width: 40%;
+    animation: fadeIn 5s infinite;
+}
+.img-etiqueta-botella-verde{
+    top: 53.3% !important;
+    left: 50.3%!important;
+    max-width: 40%;
+    animation: fadeIn 7s infinite;
+}
+.img-etiqueta-botella-amarilla{
+    top: 70.3% !important;
+    left: 77.3%!important;
+    max-width: 40%;
+    animation: fadeIn 9s infinite;
+}
+
+
 .img-botella{
     
     animation: moverLATA 4s infinite; /* Ajusta la duración de la animación según tus necesidades */
