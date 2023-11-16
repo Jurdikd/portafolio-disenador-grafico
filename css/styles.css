@@ -223,6 +223,9 @@ body {
         font-size: 1.8em;
     }
 }
+.__section-personajes{
+    background: rgba(124, 124, 124, 0.2)
+}
 .img-personajes {
     width: 90%;
     height: 38.7em;
