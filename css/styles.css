@@ -282,6 +282,28 @@ body {
     left: 50.3%!important;
     max-width: 49%;
 }
+.review-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.review-card .card-body {
+    padding: 20px;
+}
+
+.review-card .user {
+    font-weight: bold;
+}
+
+.review-card .rating i {
+    color: #FFD700;
+}
+.img-cover{
+    object-fit: cover !important;
+}
 
      /*=========================================================*/
  /* Footer*/
