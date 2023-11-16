@@ -19,8 +19,8 @@ ilustracionIMG.addEventListener("click", (e) => {
 
 		// Aumenta el tamaño de la imagen al 200%
 
-		//imgModal.width = 300;
-		//imgModal.height = 300;
+		imgModal.width = img.width * 2;
+		imgModal.height = img.height * 2;
 
 		imgModal.setAttribute("src", img.getAttribute("src")); // cambiar ruta de imagen logo
 		imgModal.setAttribute("alt", alt); // cambiar alt
