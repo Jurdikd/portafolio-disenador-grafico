@@ -277,6 +277,11 @@ body {
 .card-img_ilustracion{
     border-radius: 1em;
 }
+.imgModa{
+    top: 53.3% !important;
+    left: 50.3%!important;
+    max-width: 49%;
+}
 
      /*=========================================================*/
  /* Footer*/
